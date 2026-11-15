@@ -19,7 +19,7 @@ export default async function Home({
   return (
     <>
       <section className="pink_container">
-        <h1 className="heading mx-auto max-w-5xl text-center lg:text-left font-bold leading-tight text-3xl xs:text-4xl md:text-5xl lg:text-6xl">
+        <h1 className="heading mx-auto w-full max-w-6xl text-center font-bold leading-tight text-3xl xs:text-4xl md:text-5xl lg:text-5xl">
           <span className="block sm:hidden">
             Pitch Your Startup,
           </span>
@@ -27,11 +27,11 @@ export default async function Home({
             Connect With Entrepreneurs
           </span>
 
-          <span className="hidden sm:block overflow-hidden whitespace-nowrap border-r-4 border-black animate-typing">
+          <span className="hidden sm:block w-fit max-w-full mx-auto overflow-hidden whitespace-nowrap border-r-4 border-black text-6xl animate-typing">
             Pitch Your Startup,
           </span>
 
-          <span className="hidden sm:block overflow-hidden whitespace-nowrap border-r-4 border-black animate-typing animation-delay-3000">
+          <span className="hidden sm:block w-fit max-w-full mx-auto overflow-hidden whitespace-nowrap border-r-4 border-black text-5xl animate-typing animation-delay-3000">
             Connect With Entrepreneurs
           </span>
         </h1>
