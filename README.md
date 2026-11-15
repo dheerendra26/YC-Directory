@@ -2,11 +2,9 @@
 
 **YC-directory** is a modern blogging platform built with **Next.js**, where users can create and publish insightful articles about their startup journey. Inspired by the spirit of innovation, it’s a directory of stories from startup founders, makers, and enthusiasts.
 
-### 🏠 Home Page  
-![Hero Page](./website-demo/Hero-Page.png)
----
+## 🏠 Home Page
 
----
+![Hero Page](./website-demo/Hero-Page.png)
 
 ## ✨ Features
 
@@ -25,8 +23,6 @@
 - Mutation queries for creating and updating content
 - Error tracking and performance monitoring with **Sentry**
 
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend/Framework**: Next.js (React)
@@ -34,14 +30,6 @@
 - **Backend/Database**: Sanity 
 - **Styling**: Tailwind CSS
 - **Deployment**: Vercel
-
----
-
-## 🌐 Live Demo
-
-- 🔗 [https://yc-directory-silk-theta.app](https://yc-directory-silk-theta.vercel.app/)
-
----
 
 ## 🙏 Thanks to
 
