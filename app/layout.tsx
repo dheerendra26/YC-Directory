@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+// @ts-expect-error TypeScript does not provide declarations for this CSS side-effect import.
 import "./globals.css";
+// @ts-expect-error TypeScript does not provide declarations for this CSS side-effect import.
 import "easymde/dist/easymde.min.css";
 import { Toaster } from "@/components/ui/toaster";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const workSans = localFont({
   src: [
@@ -68,8 +71,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={workSans.variable}>
-        {children}
+      <body className={`${workSans.variable} min-h-screen flex flex-col`}>
+        <Navbar />
+        <main className="flex-1 flex flex-col">
+          {children}
+        </main>
         <Toaster />
         <Footer />
       </body>
