@@ -1,15 +1,14 @@
-
 import Link from "next/link";
 import { ArrowLeft, Compass } from "lucide-react";
 
 export default function NotFound() {
     return (
-        <section className="flex flex-1 flex-col items-center justify-center px-6 py-12 text-center bg-white">
+        <section className="flex flex-1 flex-col items-center justify-center bg-white px-6 py-12 text-center">
             <div className="relative mb-8">
                 <div className="flex size-24 items-center justify-center rounded-full bg-primary/10">
-                    <Compass className="size-12 text-primary animate-[spin_12s_linear_infinite]" />
+                    <Compass className="size-12 animate-[spin_12s_linear_infinite] text-primary" />
                 </div>
-                <span className="absolute -right-1 -top-1 size-4 rounded-full bg-secondary animate-pulse" />
+                <span className="absolute -right-1 -top-1 size-4 animate-pulse rounded-full bg-secondary" />
             </div>
 
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.3em] text-primary">
@@ -21,8 +20,8 @@ export default function NotFound() {
             </h1>
 
             <p className="mb-8 max-w-md text-base leading-relaxed text-gray-500 sm:text-lg">
-                Looks like this page hasn't made it into our directory yet.
-                Let's get you back to discovering amazing startups.
+                Looks like this page hasn&apos;t made it into our directory yet.
+                Let&apos;s get you back to discovering amazing startups.
             </p>
 
             <Link

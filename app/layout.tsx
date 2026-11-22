@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-// @ts-expect-error TypeScript does not provide declarations for this CSS side-effect import.
 import "./globals.css";
-// @ts-expect-error TypeScript does not provide declarations for this CSS side-effect import.
 import "easymde/dist/easymde.min.css";
 import { Toaster } from "@/components/ui/toaster";
 import Footer from "@/components/Footer";
